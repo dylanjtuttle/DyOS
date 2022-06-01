@@ -1,7 +1,0 @@
-cargo:rerun-if-changed=/home/dylan/code/DyOS/dy_os/Cargo.toml
-cargo:rustc-link-search=native=/home/dylan/code/DyOS/dy_os/target/bootimage/bootloader/x86_64-bootloader/release/build/bootloader-b297f0ca22804650/out
-cargo:rustc-link-lib=static=kernel_bin-dy_os
-cargo:rerun-if-env-changed=KERNEL
-cargo:rerun-if-env-changed=KERNEL_MANIFEST
-cargo:rerun-if-changed=/home/dylan/code/DyOS/dy_os/target/x86_64-dy_os/debug/dy_os
-cargo:rerun-if-changed=build.rs
